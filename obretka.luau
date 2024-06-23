@@ -58,7 +58,7 @@ local chunk = luau.load(bytecode, {
     environment = {
         require = requireImpl,
         script = script
-    }
+    },
 })
 
 chunk()
